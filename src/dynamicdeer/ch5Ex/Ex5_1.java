@@ -11,3 +11,4 @@ public class Ex5_1 {
 		int[] arr6[] = new int[3][];
 	}
 }
+

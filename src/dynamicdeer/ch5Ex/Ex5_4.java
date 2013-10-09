@@ -25,3 +25,4 @@ public class Ex5_4 {
 		System.out.println("average="+average);
 	}
 }
+

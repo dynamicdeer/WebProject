@@ -10,3 +10,4 @@ public class Ex5_2 {
 		System.out.println("arr[3].length 값은?: "+arr[3].length);
 	}
 }
+
