@@ -13,4 +13,3 @@ public class Ex5_3 {
 		System.out.println("sum = " + sum);
 	}
 }
-
