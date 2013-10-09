@@ -16,4 +16,3 @@ public class Ex5_6 {
 		}
 	}
 }
-
