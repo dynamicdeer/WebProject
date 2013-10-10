@@ -2,6 +2,6 @@ package chan;
 
 public class chan1 {
 	public static void main(String[] args) {
-		System.out.println("helloㅇㅇㅇㅇ");
+		System.out.println("hello");
 	}
 }
