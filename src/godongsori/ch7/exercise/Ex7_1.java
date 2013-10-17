@@ -2,26 +2,26 @@ package godongsori.ch7.exercise;
 
 class SutdaDeck{
 	final int CARD_NUM = 20;
-	SutdaCard[] cards = new SutdaCard[CARD_NUM];
+	SutdaCard1[] cards = new SutdaCard1[CARD_NUM];
 	
 	SutdaDeck() {
 		for (int i = 1; i <= cards.length / 2; i++) {
 			if (i == 1 || i == 3 || i == 8) {
-				cards[i-1] = new SutdaCard(i, true);
+				cards[i-1] = new SutdaCard1(i, true);
 			}else{
-				cards[i-1] = new SutdaCard(i, false);
+				cards[i-1] = new SutdaCard1(i, false);
 			}
 		}
 		for (int i = 1; i <= cards.length / 2; i++) {
-			cards[i+9] = new SutdaCard(i, false);
+			cards[i+9] = new SutdaCard1(i, false);
 		}
 	}
 	
-	SutdaCard pick(int index){
+	SutdaCard1 pick(int index){
 		return cards[index];
 	}
 	
-	SutdaCard pick(){
+	SutdaCard1 pick(){
 		int index = (int)(Math.random()*20);
 		return cards[index];
 	}
@@ -29,7 +29,7 @@ class SutdaDeck{
 	void shuffle(){
 		for (int i = 0; i < cards.length; i++) {
 			int index = (int)(Math.random()*20);
-			SutdaCard temp = cards[i];
+			SutdaCard1 temp = cards[i];
 			cards[i] = cards[index];
 			cards[index] = temp;
 		}
